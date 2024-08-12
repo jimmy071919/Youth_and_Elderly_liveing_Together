@@ -43,6 +43,7 @@
         android:layout_height="66dp"
         android:background="@drawable/edittext_rounded_border"
         android:ems="10"
+        android:textSize="15sp"
         android:hint=" 電子郵件"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="44dp"
