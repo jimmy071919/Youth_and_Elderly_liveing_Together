@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E1FF">
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="327dp"
+        android:layout_height="91dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="請到郵箱點擊"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="完成連結驗證"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <ImageView
+        android:id="@+id/email_image"
+        android:layout_width="302dp"
+        android:layout_height="307dp"
+        app:srcCompat="@drawable/email"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
