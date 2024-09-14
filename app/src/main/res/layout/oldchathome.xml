@@ -61,4 +61,37 @@
             android:src="@drawable/profileuser" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/oldchathome_header"
+        android:layout_width="58dp"
+        android:layout_height="37dp"
+        android:text="訊息"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <View
+        android:id="@+id/oldchathome_separator"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="660dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/oldchathome_request"
+        android:layout_width="81dp"
+        android:layout_height="33dp"
+        android:text="請求確認"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
