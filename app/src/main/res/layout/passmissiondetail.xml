@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homemission"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBEE"
+    android:fitsSystemWindows="true"
+    tools:context=".HelpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="委託詳細內容"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水管不通需要幫忙!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/detail_publish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1小時前"
+            app:layout_constraintTop_toBottomOf="@id/detail_title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/detail_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="桃園市中壢區中北路200號"
+            app:layout_constraintTop_toBottomOf="@id/detail_publish_time"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/detail_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5點"
+            app:layout_constraintTop_toBottomOf="@id/detail_address"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/detail_task_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="廚房水管堵住了，想找人幫忙"
+            app:layout_constraintTop_toBottomOf="@id/detail_points"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/detail_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6/10 11:00"
+            app:layout_constraintTop_toBottomOf="@id/detail_task_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0912345678"
+            app:layout_constraintTop_toBottomOf="@id/detail_time"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:id="@+id/location_image"
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/location"
+            app:layout_constraintTop_toTopOf="@id/detail_address"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:id="@+id/moneybag_image"
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/moneybag"
+            app:layout_constraintTop_toTopOf="@id/detail_points"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:id="@+id/listview_image"
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/listview"
+            app:layout_constraintTop_toTopOf="@id/detail_task_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:id="@+id/clock_image"
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/clock"
+            app:layout_constraintTop_toTopOf="@id/detail_time"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:id="@+id/phone_image"
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/phone"
+            app:layout_constraintTop_toTopOf="@id/textView2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" />
+
+        <ImageView
+            android:id="@+id/rectangle_image"
+            android:layout_width="341dp"
+            android:layout_height="187dp"
+            app:srcCompat="@drawable/rectangle"
+            app:layout_constraintTop_toBottomOf="@id/textView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/detail_publisher1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王阿豪"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/rectangle_image"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/detail_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已接受委託"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/rectangle_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/youngman_image"
+            android:layout_width="61dp"
+            android:layout_height="66dp"
+            app:srcCompat="@drawable/youngman"
+            app:layout_constraintTop_toBottomOf="@id/rectangle_image"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
