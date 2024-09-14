@@ -1,9 +1,0 @@
-<resources>
-    <!-- 基於 AppCompat 的主題 -->
-    <style name="Base.Theme.Youth_and_Elderly_liveing_Together_new" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- 自定義你的主題屬性 -->
-        <item name="colorPrimary">@color/black</item>
-        <item name="colorPrimaryDark">@color/black</item>
-        <item name="colorAccent">@color/white</item>
-    </style>
-</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFEBEE">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="上傳我的委託"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Task Title -->
+    <TextView
+        android:id="@+id/task_title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="標題"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/title"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text"
+        android:hint="  請輸入標題"
+        android:layout_below="@id/task_title_label"
+        android:layout_marginTop="4dp" />
+
+    <!-- Task Location -->
+    <TextView
+        android:id="@+id/location_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="委託地點"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/task_title"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text"
+        android:hint="  請輸入地點"
+        android:layout_below="@id/location_label"
+        android:layout_marginTop="4dp" />
+
+    <!-- Reward Points -->
+
+    <!-- Support Time -->
+
+    <TextView
+        android:id="@+id/reward_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginTop="23dp"
+        android:text="贈送點數                                                      點"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/reward"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reward_label"
+        android:layout_marginTop="-22dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/edit_text"
+        android:hint="    請填寫"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/support_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支援時間"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/reward"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/support_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text"
+        android:hint="請輸入支援時間"
+        android:layout_below="@id/support_time_label"
+        android:layout_marginTop="4dp" />
+
+    <!-- Contact Phone -->
+    <TextView
+        android:id="@+id/phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="聯絡電話"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/support_time"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text"
+        android:hint="  請輸入聯絡電話"
+        android:layout_below="@id/phone_label"
+        android:layout_marginTop="4dp"
+        android:inputType="phone" />
+
+
+    <TextView
+        android:id="@+id/notes_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="備註"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_text"
+        android:hint="  請輸入備註"
+        android:layout_below="@id/notes_label"
+        android:layout_marginTop="4dp" />
+
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notes"
+        android:layout_marginTop="20dp"
+        android:background="#FA8072"
+        android:text="上傳"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+
+
+
+

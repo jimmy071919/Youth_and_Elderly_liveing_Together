@@ -3,9 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.youth_and_elderly_liveing_together_new">
 
-    <!-- 添加所需的權限（如果有） -->
-    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,18 +14,30 @@
         android:theme="@style/Base.Theme.Youth_and_Elderly_liveing_Together_new"
         tools:targetApi="31">
 
-        <!-- 指定啟動活動 -->
         <activity
-            android:name=".IndexActivity"
+            android:name=".CallDoctor"
+            android:exported="false" />
+
+        <activity
+            android:name=".AskMedical"
+            android:exported="false" />
+
+        <activity
+            android:name=".askmedical"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.customlistview.DetailedActivity"
+            android:exported="false" /> <!-- 指定啟動活動 -->
+
+        <activity
+            android:name=".DailyActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- 其他活動（如果有） -->
-        <!-- <activity android:name=".OtherActivity" /> -->
 
     </application>
 
