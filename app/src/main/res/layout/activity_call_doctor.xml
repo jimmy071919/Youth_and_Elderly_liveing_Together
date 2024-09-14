@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBEE"
+    tools:context=".CallDoctor">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/doctor"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="109dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/baseline_add_call_24"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/calldoctor"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:text="為您撥打1922"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="423dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
