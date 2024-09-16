@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             check_password.setError("密碼不相同");
             Toast.makeText(this, "密碼不相同", Toast.LENGTH_SHORT).show();
         }
-
     }
+
 
 }
