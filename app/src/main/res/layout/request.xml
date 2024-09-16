@@ -90,7 +90,7 @@
         tools:layout_editor_absoluteY="216dp" />
 
     <TextView
-        android:id="@+id/request_name1"
+        android:id="@+id/request_name2"
         android:layout_width="81dp"
         android:layout_height="33dp"
         android:text="周水水"
@@ -100,7 +100,7 @@
         tools:layout_editor_absoluteY="363dp" />
 
     <TextView
-        android:id="@+id/request_name1"
+        android:id="@+id/request_name3"
         android:layout_width="81dp"
         android:layout_height="33dp"
         android:text="鵬大海"
