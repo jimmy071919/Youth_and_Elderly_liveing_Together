@@ -49,51 +49,51 @@
                     android:id="@+id/detail_address"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="桃園市中壢區中北路200號"
-                    app:layout_constraintTop_toBottomOf="@id/detail_publish_time"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="64dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginStart="16dp" />
+                    android:text="桃園市中壢區中北路200號"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/detail_publish_time" />
 
                 <TextView
                     android:id="@+id/detail_points"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5點"
-                    app:layout_constraintTop_toBottomOf="@id/detail_address"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="76dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginStart="16dp" />
+                    android:text="5點"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/detail_address" />
 
                 <TextView
                     android:id="@+id/detail_task_content"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="12dp"
                     android:text="廚房水管堵住了，想找人幫忙"
-                    app:layout_constraintTop_toBottomOf="@id/detail_points"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="16dp" />
+                    app:layout_constraintTop_toBottomOf="@id/detail_points" />
 
                 <TextView
                     android:id="@+id/detail_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="88dp"
+                    android:layout_marginTop="12dp"
                     android:text="6/10 11:00"
-                    app:layout_constraintTop_toBottomOf="@id/detail_task_content"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginStart="16dp" />
+                    app:layout_constraintTop_toBottomOf="@id/detail_task_content" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0912345678"
-                    app:layout_constraintTop_toBottomOf="@id/detail_time"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="88dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginStart="16dp" />
+                    android:text="0912345678"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/detail_time" />
 
                 <TextView
                     android:id="@+id/detail_publisher"
@@ -118,10 +118,10 @@
                     android:id="@+id/moneybag_image"
                     android:layout_width="25dp"
                     android:layout_height="26dp"
-                    app:srcCompat="@drawable/moneybag"
-                    app:layout_constraintTop_toTopOf="@id/detail_points"
+                    android:layout_marginStart="16dp"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginStart="16dp" />
+                    app:layout_constraintTop_toTopOf="@id/detail_points"
+                    app:srcCompat="@drawable/moneybag" />
 
                 <ImageView
                     android:id="@+id/listview_image"
