@@ -6,17 +6,17 @@ import android.view.View;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class RequestActivity extends AppCompatActivity {
+public class MissionDetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.request);
+        setContentView(R.layout.missondetail);
 
-        ImageView helpHome = findViewById(R.id.helphome);
-        helpHome.setOnClickListener(new View.OnClickListener() {
+        ImageView dailyHome = findViewById(R.id.dailyhome);
+        dailyHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RequestActivity.this, UploadMissionActivity.class);
+                Intent intent = new Intent(MissionDetailActivity.this, DailyHealthActivity.class);
                 startActivity(intent);
             }
         });

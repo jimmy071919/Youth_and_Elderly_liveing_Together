@@ -1,22 +1,22 @@
 package com.example.youth_and_elderly_liveing_together_new;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.content.Intent;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class RequestActivity extends AppCompatActivity {
+public class UploadMissionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.request);
+        setContentView(R.layout.uploadmisson);
 
-        ImageView helpHome = findViewById(R.id.helphome);
-        helpHome.setOnClickListener(new View.OnClickListener() {
+        Button uploadButton = findViewById(R.id.upload_button);
+        uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RequestActivity.this, UploadMissionActivity.class);
+                Intent intent = new Intent(UploadMissionActivity.this, MissionDetailActivity.class);
                 startActivity(intent);
             }
         });

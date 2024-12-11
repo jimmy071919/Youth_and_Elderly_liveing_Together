@@ -48,11 +48,23 @@
             android:exported="false" />
 
         <activity
+            android:name=".DailyHealthActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".UploadActivity"
             android:exported="false" />
 
         <activity
             android:name=".RequestActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".UploadMissionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MissionDetailActivity"
             android:exported="false" />
 
     </application>
