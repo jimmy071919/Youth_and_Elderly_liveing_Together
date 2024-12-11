@@ -95,7 +95,7 @@
         android:layout_marginEnd="24dp"
         android:background="@drawable/homebutton_shape"
         android:backgroundTint="#FF8EA2"
-        android:text="房源已出租"
+        android:text="房源出租"
         android:textColor="#FDFCFC"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -520,5 +520,18 @@
         </LinearLayout>
     </ScrollView>
 
+    <Button
+        android:id="@+id/startlivingbutton"
+        android:layout_width="122dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="128dp"
+        android:background="#FF8EA2"
+        android:text="返回"
+        android:textColor="#FDFCFC"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

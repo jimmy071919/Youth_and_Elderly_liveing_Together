@@ -58,12 +58,12 @@ public class HomeActivity extends AppCompatActivity {
         });
 
         SaveHome.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, UploadhomeActivity.class);
+            Intent intent = new Intent(HomeActivity.this, UploadHomeActivity.class);
             startActivity(intent);
         });
 
         RentHome.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, RenthomeActivity.class);
+            Intent intent = new Intent(HomeActivity.this, UploadHomeActivity.class);
             startActivity(intent);
         });
 
