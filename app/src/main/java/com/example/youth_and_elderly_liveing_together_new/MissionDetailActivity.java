@@ -1,7 +1,7 @@
 package com.example.youth_and_elderly_liveing_together_new;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.content.Intent;
 import android.view.View;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +16,7 @@ public class MissionDetailActivity extends AppCompatActivity {
         dailyHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MissionDetailActivity.this, DailyHealthActivity.class);
+                Intent intent = new Intent(MissionDetailActivity.this, DailyActivity.class);
                 startActivity(intent);
             }
         });

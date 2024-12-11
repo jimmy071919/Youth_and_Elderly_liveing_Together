@@ -48,7 +48,7 @@
             android:exported="false" />
 
         <activity
-            android:name=".DailyHealthActivity"
+            android:name=".DailyFragmentActivity"
             android:exported="false" />
 
         <activity
